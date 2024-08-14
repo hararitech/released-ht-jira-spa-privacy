@@ -8,38 +8,138 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
         }
         h1 {
-            color: #333;
+            color: #1a1a1a;
+            font-size: 2em;
+            text-align: center;
+        }
+        h2, h3, h4 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        p, li {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
         img {
             width: 150px;
             display: block;
             margin: 0 auto 20px auto;
         }
+        .contact-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-left: 4px solid #007BFF;
+        }
+        .contact-info p {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
-    <img src="[Your Logo Path]" alt="Harari Tech Logo">
+    <img src="harari_tech_logo.jpeg" alt="Harari Tech Logo">
     <h1>Privacy Policy</h1>
     <p>This Privacy Policy describes how Harari Tech ("we", "our", or "us") collects, uses, and shares information in connection with your use of our website, products, and services.</p>
     
-    <!-- Include your full privacy policy content here -->
+    <h2>Privacy Policy for Jira Story Points Automation App</h2>
+
+    <h3>1. Introduction</h3>
+    <p>This Privacy Policy explains how the Jira Story Points Automation App ("the App") handles your information. The App is designed to automate the estimation of story points by searching for similar stories within a Jira project, performing calculations, and generating an estimated story point value. The App is committed to protecting your privacy and ensuring transparency about how it processes information.</p>
     
-    <h2>Information We Collect</h2>
-    <p>[Details about the types of information you collect]</p>
+    <h3>2. Information We Process</h3>
+    <h4>2.1 Types of Information:</h4>
+    <ul>
+        <li><strong>Project Data:</strong> The App accesses data within your Jira projects, including story points and metadata related to similar stories, to perform its calculations.</li>
+        <li><strong>User Data:</strong> The App does not collect or store personal information about users.</li>
+    </ul>
+
+    <h4>2.2 Data Use:</h4>
+    <ul>
+        <li>The primary use of the accessed data is to perform real-time calculations to estimate story points for the target story.</li>
+        <li>The App generates a comment on the target story in Jira, indicating the similar stories considered and the estimated story points.</li>
+    </ul>
     
-    <h2>How We Use Information</h2>
-    <p>[Details about how you use the collected information]</p>
+    <h3>3. Data Handling and Storage</h3>
+    <h4>3.1 Data Processing:</h4>
+    <ul>
+        <li>All data processing is performed in real-time. The App does not store any data after processing.</li>
+        <li>Data processed includes story points and metadata of similar stories within the Jira project.</li>
+    </ul>
+
+    <h4>3.2 Data Retention:</h4>
+    <ul>
+        <li>Since the App does not store any data, there are no data retention policies applicable.</li>
+    </ul>
     
-    <h2>Third-Party Services</h2>
-    <p>[Information about any third-party services used and how data is shared]</p>
+    <h3>4. Data Sharing and Disclosure</h3>
+    <h4>4.1 Third-Party Services:</h4>
+    <ul>
+        <li>The App does not share any data with third-party services.</li>
+        <li>The App operates entirely within the Atlassian Jira environment and uses Jira APIs for data access.</li>
+    </ul>
+
+    <h4>4.2 Legal Requirements:</h4>
+    <ul>
+        <li>The App may disclose information if required to do so by law or in response to valid requests by public authorities (e.g., a court or government agency).</li>
+    </ul>
     
-    <h2>Your Rights</h2>
-    <p>[Information about users' rights regarding their data]</p>
+    <h3>5. Security</h3>
+    <h4>5.1 Data Security:</h4>
+    <ul>
+        <li>The App employs robust security measures to protect data during processing, including encryption and secure communication channels (TLS).</li>
+        <li>Access to the App is restricted to authenticated Jira users with appropriate permissions.</li>
+    </ul>
+
+    <h4>5.2 Security Practices:</h4>
+    <ul>
+        <li>Regular security assessments and audits are conducted to ensure the App's security measures are effective.</li>
+        <li>Any detected vulnerabilities are promptly addressed to protect user data.</li>
+    </ul>
     
-    <h2>Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact us at [Your Contact Information].</p>
+    <h3>6. User Rights and Responsibilities</h3>
+    <h4>6.1 User Rights:</h4>
+    <ul>
+        <li>Users have the right to understand how their data is being used and processed by the App.</li>
+        <li>Users can request additional information about the App's data processing practices by contacting support.</li>
+    </ul>
+
+    <h4>6.2 User Responsibilities:</h4>
+    <ul>
+        <li>Users are responsible for maintaining the security of their Jira accounts, including using strong passwords and enabling two-factor authentication.</li>
+        <li>Users should report any security concerns or potential privacy issues to the support team promptly.</li>
+    </ul>
+    
+    <h3>7. Changes to This Privacy Policy</h3>
+    <h4>7.1 Policy Updates:</h4>
+    <ul>
+        <li>This Privacy Policy may be updated from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons.</li>
+        <li>Users will be notified of any significant changes through Jira or via email.</li>
+    </ul>
+
+    <h4>7.2 Effective Date:</h4>
+    <ul>
+        <li>The effective date of this Privacy Policy is 08/13/2024.</li>
+    </ul>
+    
+    <h3>8. Contact Information</h3>
+    <div class="contact-info">
+        <h4>Contact Us:</h4>
+        <p>If you have any questions or concerns about this Privacy Policy or the App's data practices, please contact us at:</p>
+        <p><strong>Email:</strong> hararitech@gmail.com</p>
+    </div>
+
+    <hr>
+    <p>This Privacy Policy aims to provide clear and transparent information about how the Jira Story Points Automation App processes user data and ensures its protection.</p>
 </body>
 </html>
